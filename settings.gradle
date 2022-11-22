@@ -1,0 +1,3 @@
+include ':app'
+include ':sslCommerzSdk'
+rootProject.name = "Smart Village OI"
