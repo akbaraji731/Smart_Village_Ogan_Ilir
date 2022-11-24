@@ -101,7 +101,7 @@
             android:focusable="true"
             android:fontFamily="@font/open_sans"
             android:padding="@dimen/_7sdp"
-            android:text="@string/btn_delete"
+            android:text="@string/delete"
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
             android:textStyle="bold"

@@ -8,7 +8,7 @@ android {
 
     defaultConfig {
         applicationId "com.smartvillageoi.clientapp"
-        minSdk 31
+        minSdk 30
         targetSdk 32
         versionCode 1
         versionName "1.0.0"
@@ -80,12 +80,8 @@ dependencies {
     //Payumoney
     implementation 'com.payumoney.sdkui:plug-n-play:1.6.1'
 
-    //Payucutombrowser
-    implementation 'com.payu.custombrowser:payu-custom-browser:7.6.4'
-
     //Razorpay
-    implementation 'com.razorpay:checkout:1.6.12'
-
+    implementation 'com.razorpay:checkout:1.6.26'
     //PayStack
     implementation 'co.paystack.android:paystack:3.1.3'
 

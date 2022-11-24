@@ -447,7 +447,7 @@
                 android:paddingTop="@dimen/_10sdp"
                 android:paddingEnd="@dimen/_15sdp"
                 android:paddingBottom="@dimen/_7sdp"
-                android:text="@string/terms_and_conditions"
+                android:text="@string/terms_conditions"
                 android:textAlignment="viewStart"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium"
                 app:drawableEndCompat="@drawable/ic_right_arrow"

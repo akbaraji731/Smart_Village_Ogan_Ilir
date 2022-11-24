@@ -214,7 +214,7 @@
             android:background="@drawable/confirm_bg"
             android:gravity="center"
             android:padding="@dimen/dimen_12dp"
-            android:text="@string/btn_continue"
+            android:text="@string/continue1"
             android:textAlignment="center"
             android:textAllCaps="true"
             android:textColor="@color/white"

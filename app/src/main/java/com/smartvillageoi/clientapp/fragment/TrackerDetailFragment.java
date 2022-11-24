@@ -498,8 +498,8 @@ public class TrackerDetailFragment extends Fragment {
 
             tvPickupTime.setText(order.getPickup_time());
 
-//            productImagesAdapter = new ProductImagesAdapter(activity, order.getAttachment(), "api", order.getId());
-//            recyclerViewImageGallery.setAdapter(productImagesAdapter);
+            productImagesAdapter = new ProductImagesAdapter(activity, order.getAttachment(), "api", order.getId());
+            recyclerViewImageGallery.setAdapter(productImagesAdapter);
 
 //            lytPickUp.setVisibility(order.getLocal_pickup().equals("1") ? View.VISIBLE : View.GONE);
 //
@@ -643,7 +643,7 @@ public class TrackerDetailFragment extends Fragment {
             MultipartBody.Builder builder = new MultipartBody.Builder().setType(MultipartBody.FORM);
             builder.addFormDataPart(Constant.AccessKey, Constant.AccessKeyVal);
             builder.addFormDataPart(Constant.UPLOAD_BANK_TRANSFER_ATTACHMENT, Constant.GetVal);
-            builder.addFormDataPart(Constant.ORDER_ID, order.getId());
+            builder.addFormDataPart(Constant.ORDER_ID, id);
 
             for (int i = 0; i < mAlbumFiles.size(); i++) {
                 File file = new File(mAlbumFiles.get(i).getPath());

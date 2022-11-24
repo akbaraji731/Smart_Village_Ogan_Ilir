@@ -452,5 +452,9 @@
     <string name="bank_name_copied">Nama bank yang disalin!</string>
     <string name="bank_ifsc_code_copied">Bank Kode IFSC disalin!</string>
     <string name="extra_note_copied">Catatan tambahan yang disalin!</string>
+    <string name="delete">Delete</string>
+    <string name="password">Password</string>
+    <string name="continue1">Continue</string>
+    <string name="btn_continue">Continue</string>
 
 </resources>
